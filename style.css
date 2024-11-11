@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #f0f0f0;
+	font-family: 'Poppins', sans-serif;
+}
+.name{
+	font-family: 'Great Vibes', cursive;
+}
+.img{
+	height: 500px;
+	width: 500px;
+	margin: 20px;
+	margin-left: 60px;
+}
+.heading{
+	font-size: 7em;
+    font-weight: 700;
+}
+.sub-container{
+	padding-left: 30px;
+	margin-top: 55px;
+}
+.cir{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	background:  rgb(11, 202, 202);
+	color: #f0f0f0;
+}
+.cir:hover{
+	transform: scale(1.2); /* Increase the size */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+h4{
+	font-size: 25px;
+	font-weight: 700;
+}

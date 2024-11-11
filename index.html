@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="bg-light fixed-top" style="width: 100%;">
+		<div class="row">
+			<div class="col-md-6 col-9 ps-5 p-3">
+				<h1 class="name">Aaromal Joju</h1>
+				<p class="name">Web Developer</p>
+			</div>
+			<div class="col-md-6 col-3 d-flex justify-content-end">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container-fluid my-auto">
+						<button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" aria-current="page" href="#">Home</a>
+								</li>
+								<p class="pt-2">|</p>
+								<li class="nav-item">
+									<a class="nav-link" href="#about">About Me</a>
+								</li>
+								<p class="pt-2">|</p>
+								<li class="nav-item">
+									<a class="nav-link" href="#services">Services</a>
+								</li>
+								<p class="pt-2">|</p>
+								<li class="nav-item">
+									<a class="nav-link" href="#contact">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<section class=" pt-5" style="margin-top: 9em;" id="about">
+		<div class="container d-flex justify-content-center">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img rounded-circle img-fluid" src="./Assests/IMG_5082.jpg" alt="">
+				</div>
+				<div class="col-md-6 sub-container">
+					<h1 class="heading">Hello</h1>
+					<h4 class="mt-3">A Bit About Me</h4>
+					<p>I'm Aaromal, with a passion for building innovative solutions. I specialize in full-stack development, with strong programming logic and proficiency in Java, alongside foundational skills in C/C++. As I step into the world of tech, I am excited to leverage my skills as a Full Stack Developer, continuously learning and growing to make impactful contributions to the field.</p>
+
+					<div class="row d-flex justify-content-center gap-5">
+						<div class="cir rounded-circle overflow-hidden">Qualification</div>
+						<div class="cir rounded-circle overflow-hidden indigo-100">Skills</div>
+						<div class="cir rounded-circle overflow-hidden">Resume</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<hr style="width: 80%;" class="mx-auto">
+	<section class="mt-5" id="services">
+		<h1 class="text-center">Services</h1>
+		<div class="container">
+			<div class="row gap-5 d-flex justify-content-center mt-5">
+				<div class="card" style="width: 18rem;">
+					<img class="overflow-hidden img-fluid" src="./Assests/Mern.png" alt="MERN Development">
+					<div class="card-body">
+						<h5 class="card-title">Mern Web Development</h5>
+						<p class="card-text">Building dynamic and scalable web applications using MongoDB, Express, React, and Node.js.</p>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+					<img class="img-fluid overflow-hidden" src="./Assests/javaFull.jpeg" alt="Java Full Stack Development">
+					<div class="card-body">
+						<h5 class="card-title">Java FullStack Web Development</h5>
+						<p class="card-text">Developing robust back-end solutions with Java and integrating with front-end frameworks for a seamless experience.</p>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+					<img class="img-fluid overflow-hidden" src="./Assests/webdesign.jpeg" alt="Web Designing">
+					<div class="card-body">
+						<h5 class="card-title">Web Designing</h5>
+						<p class="card-text">Crafting modern, responsive, and user-friendly designs to enhance the user experience.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<br>
+<hr class="mx-auto" style="width: 80%;">
+	<section class="mt-5" id="contact">
+		<h1 class="text-center">Contact</h1>
+		<div class="container">
+			<div class="row">
+				<form>
+					<div class="mb-3">
+						<label for="name" class="form-label">Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Enter your Name">
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">Email address</label>
+						<input type="email" class="form-control" id="email" placeholder="Enter your email">
+					</div>
+					<div class="mb-3">
+						<label for="phone" class="form-label">Phone / Mobile</label>
+						<input type="tel" class="form-control" id="phone" placeholder="Enter your number">
+					</div>
+					<textarea class="form-control mb-3" id="message" rows="5" placeholder="Please type here..."></textarea>
+					<button type="submit" class="btn btn-primary mb-5">Submit</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<hr class="mx-auto" style="width: 80%;">
+	<br>
+	<footer style="width: 100%; height: 8em;" class="bg-light mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="footer col-md-12 d-flex justify-content-between mt-3">
+					<span><h4>Phone</h4>7012517970</span>
+					<span><h4>Email</h4>aromalpj07@gmail.com</span>
+					<span><h4>Follow Me</h4>
+					<a href=""><i class="fa-brands fa-instagram" style="color: red; font-size: 2em;" ></i></a>
+					</span>
+				</div>
+				<p class="text-center">Copy rights</p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
